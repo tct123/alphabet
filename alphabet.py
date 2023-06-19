@@ -1,8 +1,14 @@
 def rueckwaertz(letters):
-    listerueck=[]
-    letterslength = len(letters)
-    print(letterslength)
+    liste=[]
+    lett = len(letters)
     for letter in letters:
-        pass
+        liste.append(letter)
+    print(liste)
+    listerueck=[]
+    print(lett)
+    for letter in liste:
+    	listerueck.append(liste[lett])
+    	lett = lett-1
+    print(listerueck)
 letters = "abcdefghijklmnopqrstuvwxyz"
 rueckwaertz(letters=letters)
