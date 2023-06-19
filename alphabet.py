@@ -1,10 +1,10 @@
 def rueckwaertz(letters):
-    liste=[]
+    liste = []
     lett = len(letters)
     for letter in letters:
         liste.append(letter)
     print(liste)
-    listerueck=[]
+    listerueck = []
     print(lett)
     for letter in liste:
     	listerueck.append(liste[lett])
